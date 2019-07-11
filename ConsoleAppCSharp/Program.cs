@@ -8,6 +8,8 @@ namespace ConsoleAppCSharp
         static void Main(string[] args)
         {
             new EventManagerTest().Main();
+            new SignalManagerTest().Main();
         }
     }
 }
+

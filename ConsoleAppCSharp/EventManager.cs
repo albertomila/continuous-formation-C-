@@ -57,10 +57,6 @@ namespace ConsoleAppCSharp
             }
 
             triggers.RegisterEvent(delegt);
-
-            Console.WriteLine("Parameter type: {0}", typeof(T).ToString());
-            Console.WriteLine("Parameter type: {0}", typeof(T).Name);
-            Console.WriteLine("Parameter type: {0}", typeof(T).GetType().ToString());
         }
         public void Notify<T>(T evnt) where T : class
         {
